@@ -2,10 +2,10 @@ const grid = document.getElementById('grid');
 const ctx = grid.getContext('2d');
 const gridSize = 5;
 const gridWidth = 1000;
-const gridHeight = 1000;
+// const gridHeight = 1000;
 
 grid.width = gridWidth;
-grid.height = gridHeight;
+grid.height = screen.height*2;
 
 
 ctx.fillStyle = "white";
